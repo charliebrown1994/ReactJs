@@ -25,6 +25,12 @@ const FormGroup = styled.div`
     background: #1f93ff;
     color: #fff;
     cursor: pointer;
+    transition: border 0.3s, background 0.3s, color 0.3s;
+    &:hover {
+      border: 1px solid #1f93ff;
+      background: #fff;
+      color: #1f93ff;
+    }
   }
 `;
 

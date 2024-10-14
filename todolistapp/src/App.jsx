@@ -5,13 +5,15 @@ import TodoList from "./components/TodoList";
 import TodoEditor from "./components/TodoEditor";
 
 const Wrapper = styled.div`
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 100px; */
+  width: 500px;
+  margin: 100px auto 0;
 `;
 
 const App = () => {
